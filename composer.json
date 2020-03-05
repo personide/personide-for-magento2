@@ -1,0 +1,22 @@
+{
+    "name": "personide/module-connect",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Personide",
+            "email": "contact@personide.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Personide\\Connect\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
